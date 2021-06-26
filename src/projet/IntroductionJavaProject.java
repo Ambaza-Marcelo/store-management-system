@@ -19,6 +19,8 @@ public class IntroductionJavaProject {
 		System.out.println("3.Creer un nouvel achat");
 		System.out.println("4.Creer un nouveau vente");
 		
+		System.out.println("--------------------------------");
+		
 		System.out.println("5.Afficher les produits deja crees");
 		System.out.println("6.Afficher les clients deja crees");
 		System.out.println("7.Afficher les achats deja crees");
