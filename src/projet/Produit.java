@@ -7,6 +7,11 @@ public class Produit {
 	private int quantite;
 	private static Produit[] tableau_statique_produit;
 	
+	/*
+	 * 
+	 * le constructeur de la classe Produit
+	 */
+	
 	public Produit(String nom,int prix_unitaire,int quantite){
 		this.nom = nom;
 		this.prix_unitaire = prix_unitaire;

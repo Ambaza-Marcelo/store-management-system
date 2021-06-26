@@ -76,6 +76,7 @@ public class IntroductionJavaProject {
 		case 6:
 			System.out.println("affichage des clients deja crees");
 			Client.afficher_liste_client();
+			System.out.println("-------------------------------------------------");
 			break;
 			
 		default:
