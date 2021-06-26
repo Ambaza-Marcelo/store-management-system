@@ -36,6 +36,7 @@ public class IntroductionJavaProject {
 		case 5:
 			System.out.println("voici la liste des produits deja crees");
 			Produit.afficher_liste_produit();
+			System.out.println("-----------------------------------------");
 			break;
 		case 3:
 			new Achat(Client.saisie_Chaine_Caracteres("saisir la description de l'achat"));
@@ -50,6 +51,7 @@ public class IntroductionJavaProject {
 			
 		case 8:
 			System.out.println("voici la liste des ventes deja crees");
+			System.out.println("--------------------------------------");
 			Vente.afficher_liste_ventes();
 			break;
 		case 2:
