@@ -135,7 +135,10 @@ public class Client {
 	public static String afficher_liste_clients(String liste){
 		return liste;
 	}
-	
+	/*
+	 * 
+	 * liste des clients
+	 */
 	public static void afficher_liste_client(){
 		if(list_client.size()>0){
 			for(int i=0;i<list_client.size();i++){
