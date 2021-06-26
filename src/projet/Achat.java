@@ -5,7 +5,9 @@ public class Achat {
 	private String description;
 	private static Achat[] tableau_statique_achat;
 	
-	
+	/*
+	 * le constructeur de la classe Achat
+	 */
 	public Achat(String description){
 		this.description = description;
 		add_new_achat(this);

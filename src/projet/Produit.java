@@ -61,6 +61,10 @@ public class Produit {
 		this.quantite = quantite;
 	}
 	
+	/*
+	 * generation automatiques des accesseurs et les mutateurs
+	 * de la classe Produit
+	 */
 	public int getProduitID() {
 		return produitID;
 	}

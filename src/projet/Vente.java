@@ -5,6 +5,9 @@ public class Vente {
 	private String description;
 	private static Vente[] tableau_statique_vente;
 	
+	/*
+	 * le constructeur de la classe Vente
+	 */
 	public Vente(String description){
 		this.description = description;
 		add_new_vente(this);
@@ -34,6 +37,9 @@ public class Vente {
 			}
 		}
 	}
+	/*
+	 * les accesseurs et les mutateurs
+	 */
 
 	public int getVenteID() {
 		return venteID;
