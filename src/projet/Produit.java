@@ -18,6 +18,10 @@ public class Produit {
 		this.quantite = quantite;
 		add_new_produit(this);
 	}
+	
+	/*
+	 * ajouter les produits dans un tableau
+	 */
 
 	public static void add_new_produit(Produit ajout_du_nouveau_produit){
 		if(tableau_statique_produit == null){
