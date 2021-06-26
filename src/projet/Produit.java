@@ -38,7 +38,9 @@ public class Produit {
 			tableau_statique_temporaire = null;
 		}
 	}
-	
+	/*
+	 * afficher la liste des produits
+	 */
 	public static void afficher_liste_produit(){
 		if(tableau_statique_produit == null){
 			System.out.println("pas de donnes,souvenez-vous qu'il n'y a pas de base de donnees");
@@ -52,6 +54,9 @@ public class Produit {
 	public String afficher_produit(){
 		return nom+","+prix_unitaire+"Fbu"+","+quantite+","+prix_unitaire*quantite+"Fbu";
 	}
+	/*
+	 * modification de la quantite du produit
+	 */
 	public void modifier_produit(int quantite){
 		this.quantite = quantite;
 	}
